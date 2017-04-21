@@ -14,11 +14,11 @@ Part A：
     0000000000601038 D _edata
     0000000000601040 B _end
     00000000004005d4 T _fini
-    00000000004004c0 t frame_dummy
+    00000000004004c0 t frame_dummy  
     0000000000600e10 t __frame_dummy_init_array_entry
     0000000000400768 r __FRAME_END__
     0000000000601000 d _GLOBAL_OFFSET_TABLE_
-                     w __gmon_start__
+                   w __gmon_start__
     00000000004003a8 T _init
     0000000000600e18 t __init_array_end
     0000000000600e10 t __init_array_start
@@ -35,9 +35,10 @@ Part A：
     0000000000400460 t register_tm_clones
     0000000000400400 T _start
     0000000000601038 D __TMC_END__
-    000000000040052d T _Z7averageif
-    00000000004004ed T _Z7averagePdRd
-
+    000000000040052d T average(int, float)
+    00000000004004ed T average(double*, double&)
+    
+由上述結果可知，使用到的函數為average(int, float)和average(double*, double&)
 
 
 Part B：
