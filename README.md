@@ -38,7 +38,10 @@ Part A：
     000000000040052d T average(int, float)
     00000000004004ed T average(double*, double&)
     
-由上述結果可知，使用到的函數為average(int, float)和average(double*, double&)
+由上述結果可知，使用到的函數為average(int, float)和average(double*,double&)其對應的encoded identifier是T
+T代表的涵義如下：
+(1)大寫代表它的性質為global
+(2)該字符位於text section
 
 
 Part B：
