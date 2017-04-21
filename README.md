@@ -32,6 +32,4 @@ float： 4 bytes
 
 double： 8 bytes
 
-While the pointer is loaded with the memory location. 
-
-In a 64-bit operating system, a memory location occupies 8 bytes. So no matter what kind of pointer, its size is 8 bytes.
+In addition, the pointer is loaded with the memory location. In a 64-bit operating system, a memory location occupies 8 bytes. So no matter what kind of pointer, its size is 8 bytes.
