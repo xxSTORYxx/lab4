@@ -10,7 +10,17 @@ Part B：
 
 Result：
 
-1 8
+    1 8
+
+    4 8
+
+    4 8
+
+    8 8
+
+Explanation：
+
+1 8 
 
 4 8
 
@@ -18,4 +28,4 @@ Result：
 
 8 8
 
-Explanation：
+
