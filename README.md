@@ -18,7 +18,7 @@ Part A：
     0000000000600e10 t __frame_dummy_init_array_entry
     0000000000400768 r __FRAME_END__
     0000000000601000 d _GLOBAL_OFFSET_TABLE_
-                     w __gmon_start__
+                     w __gmon_start__
     00000000004003a8 T _init
     0000000000600e18 t __init_array_end
     0000000000600e10 t __init_array_start
